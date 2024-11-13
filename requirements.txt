@@ -1,4 +1,4 @@
-nltk==3.9.1
+nltk==3.8.1
 numpy==2.1.2
 googletrans==4.0.0rc1
 pygoogletranslation==2.0.6
