@@ -9,7 +9,7 @@ port_stem = PorterStemmer()
 import time
 from pygoogletranslation import Translator
 import nltk
-nltk.download('stopwords')
+# nltk.download('stopwords')
 
 
 st.set_page_config(page_title='تشخیص احساسات متن- RoboAi', layout='centered', page_icon='💬')
