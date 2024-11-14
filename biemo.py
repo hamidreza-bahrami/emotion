@@ -36,7 +36,7 @@ def thoughty(text):
 
 def show_page():
     st.write("<h3 style='text-align: center; color: gold;'>سامانه تشخیص احساسات متن 💬</h3>", unsafe_allow_html=True)
-    st.write("<h5 style='text-align: center; color: white;'>Robo-Ai.ir طراحی شده توسط</h5>", unsafe_allow_html=True)
+    st.write("<h6 style='text-align: center; color: white;'>Robo-Ai.ir طراحی شده توسط</h6>", unsafe_allow_html=True)
     st.link_button("Robo-Ai بازگشت به", "https://robo-ai.ir")
     with st.sidebar:
         col1, col2, col3 = st.columns(3)
